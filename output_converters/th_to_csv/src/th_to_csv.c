@@ -1,5 +1,5 @@
 //Copyright>
-//Copyright> Copyright (C) 1986-2023 Altair Engineering Inc.
+//Copyright> Copyright (C) 1986-2024 Altair Engineering Inc.
 //Copyright>
 //Copyright> Permission is hereby granted, free of charge, to any person obtaining 
 //Copyright> a copy of this software and associated documentation files (the "Software"), 
@@ -354,7 +354,7 @@ C           2ND RECORD : FAC_MASS,FAC_LENGTH,FAC_TIME */
 /*        printf("*********************************\n");
         printf("GEO DESCRIPTION _%d_\n",NUMGEO);
         printf("*********************************\n");*/
-    if(NUMMAT > 0)
+    if(NUMGEO > 0)
     {
         for(i=0;i<NUMGEO;i++){
             eor_c_read(length);
@@ -868,7 +868,7 @@ C           2ND RECORD : FAC_MASS,FAC_LENGTH,FAC_TIME */
 /*        printf("*********************************\n");
         printf("GEO DESCRIPTION _%d_\n",NUMGEO);
         printf("*********************************\n");*/
-    if(NUMMAT > 0)
+    if(NUMGEO > 0)
     {
         for(i=0;i<NUMGEO;i++){
             eor_c_read(length);
